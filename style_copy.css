@@ -3,8 +3,8 @@
 /* font-family: 'Kaushan Script', cursive; */
 
 html {
-  background: url(../img/bg6.png) no-repeat center center fixed;
-   -webkit-background-size: cover;
+  background: url(../img/bg3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -78,12 +78,12 @@ nav a {
 
 nav a:hover {
   background-color: rgba(40,40,40, 0.5);
-  color: #fff;
+  color: border-left: ;
 }
 
 nav a.active {
   background-color: white;
-  color: rgba(40,40,40, 0.5);
+  color: #444;
 }
 
 div h2{
@@ -162,7 +162,7 @@ div p{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: rgba(40,40,40, 0.5)}
+.dropdown-content a:hover {background-color: #ddd}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -171,5 +171,7 @@ div p{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: rgba(40,40,40, 0.5);
+    background-color: #ddd;
 }
+
+
